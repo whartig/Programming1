@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE525E35220CC0FF008DAEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE525E34220CC0FF008DAEF0 /* AppDelegate.swift */; };
+		DE525E37220CC0FF008DAEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE525E36220CC0FF008DAEF0 /* ViewController.swift */; };
+		DE525E3A220CC0FF008DAEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE525E38220CC0FF008DAEF0 /* Main.storyboard */; };
+		DE525E3C220CC100008DAEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE525E3B220CC100008DAEF0 /* Assets.xcassets */; };
+		DE525E3F220CC100008DAEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE525E3D220CC100008DAEF0 /* LaunchScreen.storyboard */; };
+		DE525E4A220CC100008DAEF0 /* StemLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE525E49220CC100008DAEF0 /* StemLearnTests.swift */; };
+		DE525E55220CC100008DAEF0 /* StemLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE525E54220CC100008DAEF0 /* StemLearnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE525E46220CC100008DAEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE525E29220CC0FF008DAEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE525E30220CC0FF008DAEF0;
+			remoteInfo = StemLearn;
+		};
+		DE525E51220CC100008DAEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE525E29220CC0FF008DAEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE525E30220CC0FF008DAEF0;
+			remoteInfo = StemLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE525E31220CC0FF008DAEF0 /* StemLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StemLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE525E34220CC0FF008DAEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE525E36220CC0FF008DAEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE525E39220CC0FF008DAEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE525E3B220CC100008DAEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE525E3E220CC100008DAEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE525E40220CC100008DAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE525E45220CC100008DAEF0 /* StemLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StemLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE525E49220CC100008DAEF0 /* StemLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemLearnTests.swift; sourceTree = "<group>"; };
+		DE525E4B220CC100008DAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE525E50220CC100008DAEF0 /* StemLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StemLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE525E54220CC100008DAEF0 /* StemLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemLearnUITests.swift; sourceTree = "<group>"; };
+		DE525E56220CC100008DAEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE525E2E220CC0FF008DAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E42220CC100008DAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E4D220CC100008DAEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE525E28220CC0FF008DAEF0 = {
+			isa = PBXGroup;
+			children = (
+				DE525E33220CC0FF008DAEF0 /* StemLearn */,
+				DE525E48220CC100008DAEF0 /* StemLearnTests */,
+				DE525E53220CC100008DAEF0 /* StemLearnUITests */,
+				DE525E32220CC0FF008DAEF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE525E32220CC0FF008DAEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE525E31220CC0FF008DAEF0 /* StemLearn.app */,
+				DE525E45220CC100008DAEF0 /* StemLearnTests.xctest */,
+				DE525E50220CC100008DAEF0 /* StemLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE525E33220CC0FF008DAEF0 /* StemLearn */ = {
+			isa = PBXGroup;
+			children = (
+				DE525E34220CC0FF008DAEF0 /* AppDelegate.swift */,
+				DE525E36220CC0FF008DAEF0 /* ViewController.swift */,
+				DE525E38220CC0FF008DAEF0 /* Main.storyboard */,
+				DE525E3B220CC100008DAEF0 /* Assets.xcassets */,
+				DE525E3D220CC100008DAEF0 /* LaunchScreen.storyboard */,
+				DE525E40220CC100008DAEF0 /* Info.plist */,
+			);
+			path = StemLearn;
+			sourceTree = "<group>";
+		};
+		DE525E48220CC100008DAEF0 /* StemLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE525E49220CC100008DAEF0 /* StemLearnTests.swift */,
+				DE525E4B220CC100008DAEF0 /* Info.plist */,
+			);
+			path = StemLearnTests;
+			sourceTree = "<group>";
+		};
+		DE525E53220CC100008DAEF0 /* StemLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE525E54220CC100008DAEF0 /* StemLearnUITests.swift */,
+				DE525E56220CC100008DAEF0 /* Info.plist */,
+			);
+			path = StemLearnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE525E30220CC0FF008DAEF0 /* StemLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE525E59220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearn" */;
+			buildPhases = (
+				DE525E2D220CC0FF008DAEF0 /* Sources */,
+				DE525E2E220CC0FF008DAEF0 /* Frameworks */,
+				DE525E2F220CC0FF008DAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StemLearn;
+			productName = StemLearn;
+			productReference = DE525E31220CC0FF008DAEF0 /* StemLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE525E44220CC100008DAEF0 /* StemLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE525E5C220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearnTests" */;
+			buildPhases = (
+				DE525E41220CC100008DAEF0 /* Sources */,
+				DE525E42220CC100008DAEF0 /* Frameworks */,
+				DE525E43220CC100008DAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE525E47220CC100008DAEF0 /* PBXTargetDependency */,
+			);
+			name = StemLearnTests;
+			productName = StemLearnTests;
+			productReference = DE525E45220CC100008DAEF0 /* StemLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE525E4F220CC100008DAEF0 /* StemLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE525E5F220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearnUITests" */;
+			buildPhases = (
+				DE525E4C220CC100008DAEF0 /* Sources */,
+				DE525E4D220CC100008DAEF0 /* Frameworks */,
+				DE525E4E220CC100008DAEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE525E52220CC100008DAEF0 /* PBXTargetDependency */,
+			);
+			name = StemLearnUITests;
+			productName = StemLearnUITests;
+			productReference = DE525E50220CC100008DAEF0 /* StemLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE525E29220CC0FF008DAEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Will Hartig";
+				TargetAttributes = {
+					DE525E30220CC0FF008DAEF0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DE525E44220CC100008DAEF0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE525E30220CC0FF008DAEF0;
+					};
+					DE525E4F220CC100008DAEF0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE525E30220CC0FF008DAEF0;
+					};
+				};
+			};
+			buildConfigurationList = DE525E2C220CC0FF008DAEF0 /* Build configuration list for PBXProject "StemLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE525E28220CC0FF008DAEF0;
+			productRefGroup = DE525E32220CC0FF008DAEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE525E30220CC0FF008DAEF0 /* StemLearn */,
+				DE525E44220CC100008DAEF0 /* StemLearnTests */,
+				DE525E4F220CC100008DAEF0 /* StemLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE525E2F220CC0FF008DAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE525E3F220CC100008DAEF0 /* LaunchScreen.storyboard in Resources */,
+				DE525E3C220CC100008DAEF0 /* Assets.xcassets in Resources */,
+				DE525E3A220CC0FF008DAEF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E43220CC100008DAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E4E220CC100008DAEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE525E2D220CC0FF008DAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE525E37220CC0FF008DAEF0 /* ViewController.swift in Sources */,
+				DE525E35220CC0FF008DAEF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E41220CC100008DAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE525E4A220CC100008DAEF0 /* StemLearnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE525E4C220CC100008DAEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE525E55220CC100008DAEF0 /* StemLearnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE525E47220CC100008DAEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE525E30220CC0FF008DAEF0 /* StemLearn */;
+			targetProxy = DE525E46220CC100008DAEF0 /* PBXContainerItemProxy */;
+		};
+		DE525E52220CC100008DAEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE525E30220CC0FF008DAEF0 /* StemLearn */;
+			targetProxy = DE525E51220CC100008DAEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE525E38220CC0FF008DAEF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE525E39220CC0FF008DAEF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE525E3D220CC100008DAEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE525E3E220CC100008DAEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE525E57220CC100008DAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE525E58220CC100008DAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE525E5A220CC100008DAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE525E5B220CC100008DAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE525E5D220CC100008DAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StemLearn.app/StemLearn";
+			};
+			name = Debug;
+		};
+		DE525E5E220CC100008DAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StemLearn.app/StemLearn";
+			};
+			name = Release;
+		};
+		DE525E60220CC100008DAEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StemLearn;
+			};
+			name = Debug;
+		};
+		DE525E61220CC100008DAEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StemLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stem.StemLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StemLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE525E2C220CC0FF008DAEF0 /* Build configuration list for PBXProject "StemLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE525E57220CC100008DAEF0 /* Debug */,
+				DE525E58220CC100008DAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE525E59220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE525E5A220CC100008DAEF0 /* Debug */,
+				DE525E5B220CC100008DAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE525E5C220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE525E5D220CC100008DAEF0 /* Debug */,
+				DE525E5E220CC100008DAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE525E5F220CC100008DAEF0 /* Build configuration list for PBXNativeTarget "StemLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE525E60220CC100008DAEF0 /* Debug */,
+				DE525E61220CC100008DAEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE525E29220CC0FF008DAEF0 /* Project object */;
+}
